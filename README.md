@@ -11,7 +11,7 @@ This module helps to log colored output in NodeJS.
 ## Usage
 
 ```javascript
-    const a = 5, const b = 'Hello;
+    const a = 5, const b = 'Hello';
     console.log(logtag.error`test ${new Error('Some error')} test2 ${new Error('Some other error')}`);
     console.log(logtag.done`test`);
     console.log(logtag.note`test ${b}`);
